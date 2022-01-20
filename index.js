@@ -8,7 +8,7 @@ const path = require('path')
 const logs = []
 
 // 请求配置
-axios.defaults.baseURL = config.baseURL
+axios.defaults.baseURL = config.baseUrl
 axios.defaults.headers['cookie'] = process.env.COOKIE
 
 // 相应拦截处理
