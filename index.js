@@ -1,10 +1,9 @@
-
-import axios from "axios"
-import config from "./config"
-import nodemailer from "nodemailer"
-import fs from "fs"
-import path from "path"
-import ejs from "ejs"
+const axios = require('axios')
+const config = require('./config')
+const nodemailer = require('nodemailer')
+const ejs = require('ejs')
+const fs = require('fs')
+const path = require('path')
 
 const logs = []
 
